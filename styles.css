@@ -1,0 +1,75 @@
+/* Fonts etc. */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #CFC0BD; 
+  margin: 0; 
+
+}
+
+/* Header styling */
+.hero-header {
+  background-color: #c49e85;
+  padding: 20px;
+  text-align: center;
+  width: 100vw; 
+  margin: 0; 
+}
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hero seksjon */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%; 
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+.hero h2 {
+  margin-top: 10px;
+}
+
+.sub-message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+  padding: 20px;
+  width: 70%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.sub-message:last-of-type {
+  margin-left: 30%; 
+  align-self: flex-end; 
+  position: relative; 
+  left: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+/* forsøk på hover greier */
+.hero:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
