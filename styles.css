@@ -70,6 +70,6 @@ footer {
 
 /* forsøk på hover greier */
 .hero:hover {
-  background-color: #f0f0f0;
+  background-color: #6e6767;
   transition: background-color 0.3s ease;
 }
